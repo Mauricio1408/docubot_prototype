@@ -10,6 +10,8 @@ import numpy as np
 
 # Load spaCy transformer model
 nlp = spacy.load("en_core_web_trf")
+
+# if u want to use our model, uncomment line 15-19 and change spacy load directory to model-best on ur local machine (p.s. our machine kinda works but needs more dataset haha)
 # nlp = spacy.load(r'C:\Users\Mauricio\Documents\3rd Year 2nd Semester\Natural Language Processing\docubot_backend\docubot\output_ner_model_two\model-best')
 
 # # Check and add the sentencizer if it's missing
